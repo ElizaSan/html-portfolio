@@ -1,46 +1,113 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi portafolio</title>
 </head>
 <body>
-    <h1>Bienvenido a mi portafolio</h1>
-    <h2>Miriam Sánchez García</h2>
-    <hr>
 
-    <h3>Proyectos</h3>
-    <ul>
-        <li>
-            <a href ="./public/movies.html">Top 3 películas favoritas</a>
-            <br>
-        </li>
-        <li>
-            <a href ="./public/babyshower.html">Invitacion a nuestro babyshower</a>
+    <header>
+        <h1>Bienvenido a mi portafolio</h1>
+        <h2>Miriam Mariel Sánchez García</h2>
+        <nav>
+            <ul>
+                <li>Resumen</li>
+                <li>Educación</li>
+                <li>Experiencia laboral</li>
+                <li>Habilidades</li>
+                <li>Proyectos</li>
+            </ul>
+        </nav>
 
-        </li>
-    </ul>
+    </header>
 
-    <hr>
-    <a href ="./public/about.html">Acerca de mí</a>
-    <a href ="./public/contact.html">Contacto</a>
+    <section>
+        <h2>Resumen</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi atque, dignissimos velit ipsum repudiandae esse odio reiciendis nostrum optio exercitationem fugiat quo at dolorem nihil officia incidunt. Ratione, doloremque voluptatibus?</p>
+    </section>
+
+    <section>
+        <h2>Educación</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Institución
+                    </th>
+                    <th>
+                        Descripción
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>
+                        Benemérita Universidad Autónoma de Puebla
+                    </th>
+                    <th>
+                        Ingeniería en Ciencias de la Computación
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Experiencia laboral</h2>
+                <table>
+            <thead>
+                <tr>
+                    <th>
+                        Puesto
+                    </th>
+                    <th>
+                        Cargo
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>
+                        Editorial Puño de letras
+                    </th>
+                    <th>
+                        Auxiliar en correción de estilo
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Java</li>
+            <li>HTML</li>
+            <li>Paquetería de Office</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>Proyectos</h2>
+        <ul>
+            <li>
+                <a href ="./public/movies.html">Top 3 películas favoritas</a>
+                <br>
+            </li>
+            <li>
+                <a href ="./public/babyshower.html">Invitacion a nuestro babyshower</a>
+
+            </li>
+        </ul>
+    </section>
+    
+    <footer>
+        <a href ="./public/about.html">Acerca de mí</a>
+        <a href ="./public/contact.html">Contacto</a>
+    </footer>
+
+
 
 </body>
 </html>
